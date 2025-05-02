@@ -1,8 +1,8 @@
-# 🧠 Predicting Customer Churn Using Decision Tree Ensembles & Naïve Bayes
+# Predicting Customer Churn Using Decision Tree Ensembles & Naïve Bayes
 
 ---
 
-## ✨ Personal Motivation
+##  Personal Motivation
 
 This project was designed as a comprehensive, end-to-end application of supervised machine learning for a business-critical problem: **predicting customer churn**. I undertook this work to deepen my experience in:
 
