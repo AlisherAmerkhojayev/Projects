@@ -18,7 +18,7 @@ As someone targeting roles in **data analytics and financial services**, I wante
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project applies two well-known classification algorithms—**Naïve Bayes** and **Decision Tree Ensembles**—to predict which customers are likely to **churn (leave)** a retail bank. The business relevance of this task is significant: retaining existing customers is typically far more cost-effective than acquiring new ones.
 
@@ -34,7 +34,7 @@ This project investigates these trade-offs through:
 
 ---
 
-## 🎯 Goals & Questions Addressed
+## Goals & Questions Addressed
 
 - Can a simple model like **Naïve Bayes** provide actionable insight into customer churn?
 - Does an ensemble of trees significantly outperform simpler approaches—and is it worth the extra complexity?
@@ -43,7 +43,7 @@ This project investigates these trade-offs through:
 
 ---
 
-## 🗃️ Dataset Description
+##  Dataset Description
 
 - **Name**: Churn_Modelling.csv  
 - **Source**: [Kaggle Dataset](https://www.kaggle.com/)  
@@ -57,7 +57,7 @@ Notably:
 
 ---
 
-## 🧠 Why SMOTE?
+## Why SMOTE?
 
 In most financial datasets, **non-churned customers dominate**. This leads models to **optimize for accuracy by predicting the majority class**, which results in poor performance for the class we actually care about (churned customers).
 
@@ -68,7 +68,7 @@ To mitigate this, I used **SMOTE** (Synthetic Minority Over-sampling Technique) 
 
 ---
 
-## ⚙️ Modeling Approach
+##  Modeling Approach
 
 ### **1. Naïve Bayes (Baseline Model)**
 
@@ -99,7 +99,7 @@ Performance was validated using **AUC on a hold-out validation set**, aligning w
 
 ---
 
-## 📈 Performance Summary
+## Performance Summary
 
 | Metric        | Naïve Bayes | Decision Tree Ensemble |
 |---------------|-------------|-------------------------|
@@ -116,7 +116,7 @@ Performance was validated using **AUC on a hold-out validation set**, aligning w
 
 ---
 
-## 📊 Visual Outputs
+## Visual Outputs
 
 - **ROC Curve**: Plotted for both models; DTE curve dominated NB’s.
 - **Confusion Matrix**: Used to interpret precision/recall trade-offs.
@@ -124,7 +124,7 @@ Performance was validated using **AUC on a hold-out validation set**, aligning w
 
 ---
 
-## 🔍 Key Learnings
+## Key Learnings
 
 - **Class imbalance must be addressed** or results become misleading.
 - **DTE is powerful but costly**—a practical insight for real-time or low-resource applications.
@@ -133,7 +133,7 @@ Performance was validated using **AUC on a hold-out validation set**, aligning w
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Integrate **cross-validation** to generalize results.
 - Explore **Random Forests** or **Gradient Boosting** for higher performance.
